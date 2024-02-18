@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+}
+
+.head {
+    background-color: #6739B6;
+    color: white;
+}
+
+.push-right {
+    justify-content: flex-end;
+}
+
+.nav-link{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+
+.hero {
+    width: 11%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, .5);
+    font-size: 1.2rem;
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+.main {
+    background-color: #f5f5f5;
+}
+
+.feature-box {
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 35px;
+}
+
+.feature-box img {
+    width: 64px;
+    height: auto;
+}
+
+.spacer {
+    margin: 0 10px;
+    box-shadow: 0px 49px 40px rgba(50, 50, 71, 0.05);
+    padding: 10%;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+.obama {
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin: 30px auto;
+}
+
+.foot-img {
+    width: 8%;
+    margin: 20px 40px;
+}
+
+#foot {
+    padding: 5% 1%;
+}
+
+@media only screen and (max-width: 1024px) {
+    #title {
+        text-align: center;
+    }
+
+    .hero {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+}
